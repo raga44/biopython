@@ -4,14 +4,11 @@ Created on Sun Oct 02 14:25:22 2016
 
 @author: Omer Javed
 """
-
 import random
 import matplotlib.pyplot as plt
 import numpy as np
 import itertools as it
 import time
-
-
 
 L= 32000
 k = 7
@@ -52,10 +49,3 @@ for Kval in range(k):
         #print a1,t
 print a1,t       
 plt.plot(a1,t,color="red")
-        
-
-    
-        
-
-
-
